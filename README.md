@@ -1,5 +1,5 @@
 # Hackintosh-Dell-Inspiron-15r-5537
-Full kext Hackintosh Dell Inspiron 15r 5537 Macos sierra 10.12.6 (16G1114)
+# Full kext Hackintosh Dell Inspiron 15r 5537 Macos sierra 10.12.6 (16G1114)
 I.Graphic Card:
   <ul><li>Using: FakePCIID.kext, FakePCIID_Intel_HD_Graphics.kext and config.plist right values.</li>
         <li>1. Using Clover Configurator, mount EFI Partition.</li>
@@ -11,4 +11,4 @@ I.Graphic Card:
         <li>7. Install both FakePCIID.kext and FakePCIIDIntelHD_Graphics.kext with Kext Utility.</li>
         <li>8. Reboot.</li></ul>
 II.Audio: 
-  Install tool VoodooHDA-2.8.8.pkg will auto fix audio (ALC283)
+  <ul><li>Install tool VoodooHDA-2.8.8.pkg will auto fix audio (ALC283)</li>
