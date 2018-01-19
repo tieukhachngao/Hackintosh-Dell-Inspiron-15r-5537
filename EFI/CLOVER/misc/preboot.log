@@ -1,0 +1,498 @@
+0:100  0:100  MemLog inited, TSC freq: 2294690774
+0:100  0:000  
+0:100  0:000  Now is 18.1.2018,  16:58:32 (GMT)
+0:100  0:000  Starting Clover revision: 3761 on INSYDE Corp. EFI
+0:100  0:000  Build with: [Args: -D NO_GRUB_DRIVERS_EMBEDDED | -D NO_GRUB_DRIVERS_EMBEDDED -D USE_LOW_EBDA -a X64 -b RELEASE -t XCODE5 -n 5 | OS: 10.12 | XCODE: 8.0]
+0:100  0:000  SelfDevicePath=PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(1,GPT,03944981-BA1A-40FE-95B8-882A81F73C0C,0x28,0x64000) @8D3A5498
+0:100  0:000  SelfDirPath = \EFI\BOOT
+0:100  0:000  === [ Get Smbios ] ========================================
+0:100  0:000  Total Memory Slots Count = 2
+0:100  0:000  Type 17 Index = 0
+0:100  0:000  Table has error information, checking
+0:100  0:000  Found memory information in table 18/0, type=0x3, operation=0x2 syndrome=0x0
+0:100  0:000  ...memory OK
+0:100  0:000  SmbiosTable.Type17->Speed = 1600MHz
+0:100  0:000  SmbiosTable.Type17->Size = 8192MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device =  JDIMM1
+0:100  0:000  SmbiosTable.Type17->Vendor = Kingmax Semiconductor
+0:100  0:000  SmbiosTable.Type17->SerialNumber = 00000000
+0:100  0:000  SmbiosTable.Type17->PartNumber = FSGG43F-D8KMB     
+0:100  0:000  Type 17 Index = 1
+0:100  0:000  Table has error information, checking
+0:100  0:000  Found memory information in table 18/1, type=0x3, operation=0x2 syndrome=0x0
+0:100  0:000  ...memory OK
+0:100  0:000  SmbiosTable.Type17->Speed = 1600MHz
+0:100  0:000  SmbiosTable.Type17->Size = 4096MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device =  JDIMM2
+0:100  0:000  SmbiosTable.Type17->Vendor = Samsung
+0:100  0:000  SmbiosTable.Type17->SerialNumber = 369B3A42
+0:100  0:000  SmbiosTable.Type17->PartNumber = M471B5173DB0-YK0  
+0:100  0:000  Boot status=0
+0:100  0:000  Running on: 'Inspiron 5537' with board '0RKNTK'
+0:100  0:000  === [ GetCPUProperties ] ==================================
+0:100  0:000  CPU Vendor = 756E6547 Model=40651
+0:100  0:000  got cores from CPUID_1 = 0
+0:100  0:000  The CPU supported turbo
+0:100  0:000  BrandString = Intel(R) Core(TM) i5-4200U CPU @ 1.60GHz
+0:100  0:000  MSR 0xE2 before patch 1E008405
+0:100  0:000  MSR 0xE2 is locked, PM patches will be turned on
+0:100  0:000  MSR 0xE4              00021814
+0:100  0:000  MSR 0xCE              0008083D_F3011700
+0:100  0:000  non-usable FLEX_RATIO = 10000
+0:100  0:000  corrected FLEX_RATIO = 0
+0:100  0:000  MSR 0x1B0             00000000
+0:100  0:000  FSBFrequency=69MHz DMIvalue=100000kHz
+0:100  0:000  Corrected FSBFrequency=100MHz
+0:100  0:000  Vendor/Model/Stepping: 0x756E6547/0x45/0x1
+0:100  0:000  Family/ExtFamily: 0x6/0x0
+0:100  0:000  MaxDiv/MinDiv: 23.0/8
+0:100  0:000  Turbo: 23/23/23/26
+0:100  0:000  Features: 0xBFEBFBFF
+0:100  0:000  Threads: 4
+0:100  0:000  Cores: 2
+0:100  0:000  FSB: 100 MHz
+0:100  0:000  CPU: 1600 MHz
+0:100  0:000  TSC: 1600 MHz
+0:100  0:000  PIS: 400 MHz
+0:100  0:000  === [ GetDevices ] ========================================
+0:100  0:000  PCI (00|00:00.00) : 8086 0A04 class=060000
+0:100  0:000  PCI (00|00:02.00) : 8086 0A16 class=030000
+0:100  0:000   - GFX: Model=Intel HD Graphics 4400 (Intel)
+0:100  0:000  PCI (00|00:03.00) : 8086 0A0C class=040300
+0:100  0:000  PCI (00|00:14.00) : 8086 9C31 class=0C0330
+0:100  0:000  PCI (00|00:16.00) : 8086 9C3A class=078000
+0:100  0:000  PCI (00|00:1B.00) : 8086 9C20 class=040300
+0:100  0:000  PCI (00|00:1C.00) : 8086 9C14 class=060400
+0:100  0:000  PCI (00|01:00.00) : 10EC 8136 class=020000
+0:100  0:000   - LAN: 0 Vendor=Realtek
+0:100  0:000  PCI (00|00:1C.03) : 8086 9C16 class=060400
+0:100  0:000  PCI (00|02:00.00) : 168C 0036 class=028000
+0:100  0:000   - WIFI: Vendor=Atheros
+0:100  0:000  PCI (00|00:1C.04) : 8086 9C18 class=060400
+0:100  0:000  PCI (00|03:00.00) : 1002 6660 class=038000
+0:100  0:000   - GFX: Model=AMD Radeon HD 8670M (ATI/AMD)
+0:100  0:000  PCI (00|00:1D.00) : 8086 9C26 class=0C0320
+0:100  0:000  PCI (00|00:1F.00) : 8086 9C43 class=060100
+0:100  0:000  PCI (00|00:1F.02) : 8086 9C03 class=010601
+0:100  0:000  PCI (00|00:1F.03) : 8086 9C22 class=0C0500
+0:100  0:000  PCI (00|00:1F.06) : FFFF FFFF class=FFFFFF
+0:100  0:000  === [ GetDefaultSettings ] ================================
+0:100  0:000  Clover load options size = 0 bytes
+0:101  0:000  , Status=Success
+0:101  0:000  EFI\CLOVER\config.plist loaded: Success
+0:101  0:000  === [ GetListOfThemes ] ===================================
+0:101  0:000  - [00]: applestyle
+0:103  0:001  - [01]: metal
+0:105  0:001  === [ GetEarlyUserSettings ] ==============================
+0:105  0:000  timeout set to 5
+0:105  0:000  Custom boot CUSTOM_BOOT_DISABLED (0x0)
+0:105  0:000  Default theme: metal
+0:105  0:000  === [ LoadDrivers ] =======================================
+0:105  0:000  Loading FSInject-64.efi  status=Success
+0:105  0:000  Loading OsxAptioFixDrv-64.efi  status=Success
+0:106  0:000  Loading OsxFatBinaryDrv-64.efi  status=Success
+0:106  0:000  Loading VBoxHfs-64.efi  status=Success
+0:107  0:000   - driver needs connecting
+0:107  0:000  1 drivers needs connecting ...
+0:107  0:000  PlatformDriverOverrideProtocol not found. Installing ... Success
+0:107  0:000  Searching for invalid DiskIo BY_DRIVER connects:
+0:107  0:000   - Handle 8D3A2F98 with DiskIo, is Partition, no Fs, BY_DRIVER Agent: 8DF33298, Disconnect: Success
+0:377  0:270  Dump SMC keys from NVRAM:
+0:378  0:000     fakesmc-key-$Adr-ui32:00 00 03 00 
+0:378  0:000     fakesmc-key-$Num-ui8:01 
+0:378  0:000     fakesmc-key-RMde-char:41 
+0:379  0:000     fakesmc-key-BATP-flag:00 
+0:379  0:000     fakesmc-key-BBIN-ui8:01 
+0:379  0:000     fakesmc-key-MSTc-ui8:00 
+0:379  0:000     fakesmc-key-MSAc-ui16:00 00 
+0:379  0:000     fakesmc-key-MSLD-ui8:00 
+0:379  0:000     fakesmc-key-MSWr-ui8:00 
+0:379  0:000     fakesmc-key-MSFW-ui8:01 00 
+0:379  0:000     fakesmc-key-MSPS-ui16:00 03 
+0:379  0:000     fakesmc-key-#KEY-ui32:00 00 00 12 
+0:379  0:000     fakesmc-key-RPlt-ch8*:6A 34 34 00 00 00 00 00 
+0:379  0:000     fakesmc-key-RBr -ch8*:6A 34 34 00 00 00 00 00 
+0:379  0:000     fakesmc-key-EPCI-ui32:07 B0 F0 00 
+0:379  0:000     fakesmc-key-REV -ch8*:02 16 0F 00 00 68 
+0:379  0:000     fakesmc-key-BEMB-flag:01 
+0:379  0:000     fakesmc-key-BNum-ui8:01 
+0:385  0:005  === [ InitScreen ] ========================================
+0:385  0:000  SetScreenResolution: 1366x768 - setting Mode 0
+0:580  0:194  Video mode change to mode #0: Success
+0:580  0:000  Console modes reported: 5, available modes:
+0:580  0:000   - [01]: 80x25
+0:580  0:000   - [03]: 170x40
+0:580  0:000   - [04]: 128x40 (current mode)
+0:580  0:000   - [05]: 100x31
+0:580  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(1,GPT,03944981-BA1A-40FE-95B8-882A81F73C0C,0x28,0x64000)
+0:583  0:002  === [ GetMacAddress ] =====================================
+0:583  0:000  MAC address of LAN #0= 74:86:7A:42:60:5C:
+0:583  0:000  MAC address of LAN #1= 74:86:7A:42:60:5C:
+0:583  0:000  MAC address of LAN #2= 74:86:7A:42:60:5C:
+0:583  0:000  === [ ScanSPD ] ===========================================
+0:583  0:000  SMBus device : 8086 9C22 class=0C0500 status=Success
+0:583  0:000  SMBus CmdReg: 0x3
+0:583  0:000  Scanning SMBus [8086:9C22], mmio: 0xC0819004, ioport: 0x5040, hostc: 0x1
+0:583  0:000  Slots to scan [8]...
+0:583  0:000  SPD[0]: Type 11 @0x50
+0:601  0:018  DDR speed 1600MHz
+0:601  0:000  Slot: 0 Type 24 8192MB 1600MHz Vendor=Kingmax Semiconductor PartNo=FSGG43F-D8KMB SerialNo=0000000000000000
+0:602  0:000  SPD[2]: Type 11 @0x52
+0:620  0:018  DDR speed 1600MHz
+0:620  0:000  Slot: 2 Type 24 4096MB 1600MHz Vendor=Samsung PartNo=M471B5173DB0-YK0 SerialNo=0306090B030A0402
+0:621  0:000  === [ GetAcpiTablesList ] =================================
+0:621  0:000  Get Acpi Tables List from RSDT:
+0:621  0:000   - [00]: FACP  CL09    len=268
+0:621  0:000   - [01]: UEFI  CL09    len=566
+0:621  0:000   - [02]: FPDT  CL09    len=68
+0:621  0:000   - [03]: ASF!  CL09    len=165
+0:621  0:000   - [04]: HPET  CL09    len=56
+0:621  0:000   - [05]: APIC  CL09    len=140
+0:621  0:000   - [06]: MCFG  CL09    len=60
+0:621  0:000   - [07]: SSDT  CRV ORB  len=1790
+0:621  0:000   - [08]: BOOT  CL09    len=40
+0:621  0:000   - [09]: ASPT  CL09    len=52
+0:621  0:000   - [10]: DBGP  CL09    len=52
+0:621  0:000   - [11]: SSDT  CRV ORB  len=1337
+0:621  0:000   - [12]: SSDT  CRV ORB  len=2776
+0:621  0:000   - [13]: SSDT  CRV ORB  len=13013
+0:621  0:000   - [14]: SSDT  CRV ORB  len=7741
+0:621  0:000   - [15]: DMAR  CL09    len=136
+0:621  0:000  Calibrated TSC frequency =2294690774 =2294MHz
+0:622  0:000  === [ GetUserSettings ] ===================================
+0:622  0:000  USB FixOwnership: no
+0:622  0:000  Dropping 1 tables:
+0:622  0:000   - [00]: Drop table  signature="DMAR" (52414D44)
+0:622  0:000           - set table: 52414D44,                0 to drop: yes
+0:622  0:000   - final DSDT Fix mask=06261011
+0:622  0:000  ChassisType: 0x8
+0:622  0:000  Using smbios.plist at path: EFI\CLOVER\smbios.plist, Status=Not Found
+0:623  0:001  === [ ScanVolumes ] =======================================
+0:623  0:000  Found 8 volumes with blockIO
+0:623  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)
+0:623  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x0,0x0)
+0:623  0:000          Result of bootcode detection: bootable unknown (legacy)
+0:623  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(1,GPT,03944981-BA1A-40FE-95B8-882A81F73C0C,0x28,0x64000)
+0:623  0:000          Result of bootcode detection: bootable unknown (legacy)
+0:624  0:000          This is SelfVolume !!
+0:624  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(2,GPT,EFCD9F08-CAE4-4BB4-AB99-C65F8D556FDC,0x64028,0xDDFAC40)
+0:624  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(3,GPT,C32F2EA2-CB4E-4C4B-AE35-C197D7B90775,0xDE5EC68,0x135F20)
+0:624  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x0,0x0)\HD(1,MBR,0x0004394E,0x7C1,0x5754483F)
+0:624  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x0,0x0)\HD(1,MBR,0x0004394E,0x7C1,0x5754483F)\HD(1,MBR,0x00000000,0x800,0x3BBDF000)
+0:624  0:000          Result of bootcode detection: bootable Windows (win)
+0:624  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x0,0x0)\HD(1,MBR,0x0004394E,0x7C1,0x5754483F)\HD(2,MBR,0x00000000,0x3BBE0000,0x1B965000)
+0:624  0:000          Result of bootcode detection: bootable Windows (win)
+0:624  0:000  === [ InitTheme ] =========================================
+0:624  0:000  Using theme 'metal' (EFI\CLOVER\themes\metal)
+0:629  0:004  Choosing theme metal
+0:629  0:000  found boot-args in NVRAM:kext-dev-mode=1 rootless=0, size=27
+0:629  0:000  ...found arg:kext-dev-mode=1
+0:629  0:000  ...found arg:rootless=0
+0:629  0:000  ...adding arg:rootless=0
+0:629  0:000  after NVRAM boot-args=npci=0x2000 -gux_defer_usb2 kext-dev-mode=1 rootless=0 
+0:629  0:000  === [ ScanLoader ] ========================================
+0:629  0:000  - [02]: 'EFI'
+0:629  0:000  - [03]: 'os'
+0:631  0:001          AddLoaderEntry for Volume Name=os
+0:632  0:001          hibernated: set as never
+0:632  0:000          [!] Icon 17 (icons\vol_internal_hfs.icns) not found (path: EFI\CLOVER\themes\metal)
+0:635  0:003  - [04]: 'Recovery HD'
+0:636  0:000          AddLoaderEntry for Volume Name=Recovery HD
+0:636  0:000          [!] Icon 20 (icons\vol_recovery.icns) not found (path: EFI\CLOVER\themes\metal)
+0:637  0:000  === [ AddCustomLegacy ] ===================================
+0:637  0:000  === [ AddCustomTool ] =====================================
+0:637  0:000          [!] Icon 1 (icons\func_options.png) not found (path: EFI\CLOVER\themes\metal)
+0:637  0:000          [!] Icon 0 (icons\func_about.png) not found (path: EFI\CLOVER\themes\metal)
+0:637  0:000          [!] Icon 5 (icons\func_reset.png) not found (path: EFI\CLOVER\themes\metal)
+0:637  0:000          [!] Icon 6 (icons\func_shutdown.png) not found (path: EFI\CLOVER\themes\metal)
+0:639  0:001  === [ FindDefaultEntry ] ==================================
+0:639  0:000  === [ GetEfiBootDeviceFromNvram ] =========================
+0:639  0:000   - efi-boot-device-data: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(2,GPT,EFCD9F08-CAE4-4BB4-AB99-C65F8D556FDC,0x64028,0xDDFAC40)
+0:639  0:000    - Volume: 'PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(2,GPT,EFCD9F08-CAE4-4BB4-AB99-C65F8D556FDC,0x64028,0xDDFAC40)'
+0:639  0:000    - LoaderPath: '<null string>'
+0:639  0:000    - Guid = EFCD9F08-CAE4-4BB4-AB99-C65F8D556FDC
+0:639  0:000  === [ FindStartupDiskVolume ] =============================
+0:639  0:000    - Volume: partition = PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(2,GPT,EFCD9F08-CAE4-4BB4-AB99-C65F8D556FDC,0x64028,0xDDFAC40)
+0:639  0:000     - searching for that partition
+0:639  0:000      - found entry 0. 'Boot Mac OS X from os', Volume 'os'
+0:639  0:000  Boot redirected to Entry 0. 'Boot Mac OS X from os'
+0:639  0:000  DefaultIndex=0 and MainMenu.EntryCount=6
+0:639  0:000  Use anime=logo_3D frames=15
+0:833  0:193  GUI ready
+3:001  2:168  Found UEFI Acpi 2.0 RSDP at 90FFE014
+3:001  0:000  Saving ACPI tables from RSDP 90FFE014 to EFI\CLOVER\ACPI\origin ...
+3:001  0:000   90FFE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+3:005  0:003    (Xsdt: 90FFE210, Rsdt: 90FFE124)
+3:005  0:000    90FFE210: 'XSDT', 'CL09   ', Rev: 1, Len: 164 -> XSDT.aml
+3:009  0:003    90FFE124: 'RSDT', 'CL09   ', Rev: 1, Len: 100 -> RSDT.aml
+3:013  0:003    Tables in Xsdt: 16
+3:013  0:000    0. 90FF9000: 'FACP', 'CL09   ', Rev: 5, Len: 268 -> FACP.aml
+3:017  0:003        (Dsdt: 90FEB000, Facs: 90FB8000, XDsdt: 90FEB000, XFacs: 0)
+3:017  0:000        90FEB000: 'DSDT', 'CL09   ', Rev: 1, Len: 43130 -> DSDT.aml
+3:021  0:004        90FB8000: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+3:025  0:003    1. 90FFD000: 'UEFI', 'CL09   ', Rev: 1, Len: 566 -> UEFI.aml
+3:029  0:004    2. 90FFB000: 'FPDT', 'CL09   ', Rev: 1, Len: 68 -> FPDT.aml
+3:033  0:004    3. 90FFA000: 'ASF!', 'CL09   ', Rev: 32, Len: 165 -> ASF!.aml
+3:037  0:003    4. 90FF8000: 'HPET', 'CL09   ', Rev: 1, Len: 56 -> HPET.aml
+3:041  0:004    5. 90FF7000: 'APIC', 'CL09   ', Rev: 3, Len: 140 -> APIC.aml
+3:045  0:004    6. 90FF6000: 'MCFG', 'CL09   ', Rev: 1, Len: 60 -> MCFG.aml
+3:049  0:003    7. 90FEA000: 'SSDT', 'CRV ORB ', Rev: 1, Len: 1790 -> SSDT-0.aml
+3:053  0:004    8. 90FE8000: 'BOOT', 'CL09   ', Rev: 1, Len: 40 -> BOOT.aml
+3:057  0:004    9. 90FE6000: 'ASPT', 'CL09   ', Rev: 7, Len: 52 -> ASPT.aml
+3:065  0:007    10. 90FE5000: 'DBGP', 'CL09   ', Rev: 1, Len: 52 -> DBGP.aml
+3:071  0:006    11. 90FDE000: 'SSDT', 'CRV ORB ', Rev: 1, Len: 1337 -> SSDT-1.aml
+3:077  0:006    12. 90FDD000: 'SSDT', 'CRV ORB ', Rev: 1, Len: 2776
+ Found hidden SSDT 4 pcs
+3:077  0:000        * 8FE7FA98: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337  53 53 44 54 39 05 00 00 01 5A 50 6D 52 65 66 00 Internal length = 1337 -> SSDT-3x.aml
+3:084  0:006        * 90E7D618: 'SSDT', 'ApIst', Rev: 1, Len: 1450  53 53 44 54 AA 05 00 00 01 D2 50 6D 52 65 66 00 Internal length = 1450 -> SSDT-4x.aml
+3:091  0:006        * 90E7DC18: 'SSDT', 'Cpu0Cst', Rev: 1, Len: 979  53 53 44 54 D3 03 00 00 01 B2 50 6D 52 65 66 00 Internal length = 979 -> SSDT-5x.aml
+3:098  0:007        * 90E7CD98: 'SSDT', 'ApCst', Rev: 1, Len: 281  53 53 44 54 19 01 00 00 01 EE 50 6D 52 65 66 00 Internal length = 281 -> SSDT-6x.aml
+3:105  0:006   -> SSDT-2.aml
+3:111  0:006    13. 90FD9000: 'SSDT', 'CRV ORB ', Rev: 1, Len: 13013 -> SSDT-7.aml
+3:118  0:006    14. 90FD6000: 'SSDT', 'CRV ORB ', Rev: 1, Len: 7741 -> SSDT-8.aml
+3:124  0:006    15. 90FD8000: 'DMAR', 'CL09   ', Rev: 1, Len: 136 -> DMAR.aml
+3:131  0:007    Tables in Rsdt: 16
+3:131  0:000    0. 90FF9000: 'FACP', 'CL09   ', Rev: 5, Len: 268
+3:131  0:000        (Dsdt: 90FEB000, Facs: 90FB8000, XDsdt: 90FEB000, XFacs: 0)
+3:131  0:000        90FEB000: 'DSDT', 'CL09   ', Rev: 1, Len: 43130
+3:132  0:000        90FB8000: 'FACS', Ver: 2, Len: 64
+3:132  0:000    1. 90FFD000: 'UEFI', 'CL09   ', Rev: 1, Len: 566
+3:132  0:000    2. 90FFB000: 'FPDT', 'CL09   ', Rev: 1, Len: 68
+3:132  0:000    3. 90FFA000: 'ASF!', 'CL09   ', Rev: 32, Len: 165
+3:132  0:000    4. 90FF8000: 'HPET', 'CL09   ', Rev: 1, Len: 56
+3:132  0:000    5. 90FF7000: 'APIC', 'CL09   ', Rev: 3, Len: 140
+3:132  0:000    6. 90FF6000: 'MCFG', 'CL09   ', Rev: 1, Len: 60
+3:132  0:000    7. 90FEA000: 'SSDT', 'CRV ORB ', Rev: 1, Len: 1790
+3:132  0:000    8. 90FE8000: 'BOOT', 'CL09   ', Rev: 1, Len: 40
+3:132  0:000    9. 90FE6000: 'ASPT', 'CL09   ', Rev: 7, Len: 52
+3:132  0:000    10. 90FE5000: 'DBGP', 'CL09   ', Rev: 1, Len: 52
+3:132  0:000    11. 90FDE000: 'SSDT', 'CRV ORB ', Rev: 1, Len: 1337
+3:132  0:000    12. 90FDD000: 'SSDT', 'CRV ORB ', Rev: 1, Len: 2776
+3:132  0:000    13. 90FD9000: 'SSDT', 'CRV ORB ', Rev: 1, Len: 13013
+3:132  0:000    14. 90FD6000: 'SSDT', 'CRV ORB ', Rev: 1, Len: 7741
+3:132  0:000    15. 90FD8000: 'DMAR', 'CL09   ', Rev: 1, Len: 136
+3:132  0:000  Found UEFI Acpi 1.0 RSDP at 90FFE000
+3:132  0:000  Printing ACPI tables from RSDP 90FFE000 ...
+3:132  0:000   90FFE000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+3:132  0:000    (Rsdt: 90FFE038)
+3:132  0:000    90FFE038: 'RSDT', 'CL09   ', Rev: 1, Len: 100
+3:132  0:000    Tables in Rsdt: 16
+3:132  0:000    0. 90FF9000: 'FACP', 'CL09   ', Rev: 5, Len: 268
+3:132  0:000        (Dsdt: 90FEB000, Facs: 90FB8000, XDsdt: 90FEB000, XFacs: 0)
+3:132  0:000        90FEB000: 'DSDT', 'CL09   ', Rev: 1, Len: 43130
+3:132  0:000        90FB8000: 'FACS', Ver: 2, Len: 64
+3:132  0:000    1. 90FFD000: 'UEFI', 'CL09   ', Rev: 1, Len: 566
+3:132  0:000    2. 90FFB000: 'FPDT', 'CL09   ', Rev: 1, Len: 68
+3:132  0:000    3. 90FFA000: 'ASF!', 'CL09   ', Rev: 32, Len: 165
+3:132  0:000    4. 90FF8000: 'HPET', 'CL09   ', Rev: 1, Len: 56
+3:132  0:000    5. 90FF7000: 'APIC', 'CL09   ', Rev: 3, Len: 140
+3:132  0:000    6. 90FF6000: 'MCFG', 'CL09   ', Rev: 1, Len: 60
+3:132  0:000    7. 90FEA000: 'SSDT', 'CRV ORB ', Rev: 1, Len: 1790
+3:132  0:000    8. 90FE8000: 'BOOT', 'CL09   ', Rev: 1, Len: 40
+3:132  0:000    9. 90FE6000: 'ASPT', 'CL09   ', Rev: 7, Len: 52
+3:132  0:000    10. 90FE5000: 'DBGP', 'CL09   ', Rev: 1, Len: 52
+3:132  0:000    11. 90FDE000: 'SSDT', 'CRV ORB ', Rev: 1, Len: 1337
+3:132  0:000    12. 90FDD000: 'SSDT', 'CRV ORB ', Rev: 1, Len: 2776
+3:132  0:000    13. 90FD9000: 'SSDT', 'CRV ORB ', Rev: 1, Len: 13013
+3:132  0:000    14. 90FD6000: 'SSDT', 'CRV ORB ', Rev: 1, Len: 7741
+3:132  0:000    15. 90FD8000: 'DMAR', 'CL09   ', Rev: 1, Len: 136
+3:245  0:113  Found UEFI Acpi 2.0 RSDP at 90FFE014
+3:245  0:000  Saving ACPI tables from RSDP 90FFE014 to EFI\CLOVER\ACPI\origin ...
+3:245  0:000   90FFE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+3:245  0:000    (Xsdt: 90FFE210, Rsdt: 90FFE124)
+3:245  0:000    90FFE210: 'XSDT', 'CL09   ', Rev: 1, Len: 164
+3:245  0:000    90FFE124: 'RSDT', 'CL09   ', Rev: 1, Len: 100
+3:245  0:000    Tables in Xsdt: 16
+3:245  0:000    0. 90FF9000: 'FACP', 'CL09   ', Rev: 5, Len: 268
+3:245  0:000        (Dsdt: 90FEB000, Facs: 90FB8000, XDsdt: 90FEB000, XFacs: 0)
+3:245  0:000        90FEB000: 'DSDT', 'CL09   ', Rev: 1, Len: 43130
+3:246  0:000        90FB8000: 'FACS', Ver: 2, Len: 64
+3:246  0:000    1. 90FFD000: 'UEFI', 'CL09   ', Rev: 1, Len: 566
+3:246  0:000    2. 90FFB000: 'FPDT', 'CL09   ', Rev: 1, Len: 68
+3:246  0:000    3. 90FFA000: 'ASF!', 'CL09   ', Rev: 32, Len: 165
+3:246  0:000    4. 90FF8000: 'HPET', 'CL09   ', Rev: 1, Len: 56
+3:246  0:000    5. 90FF7000: 'APIC', 'CL09   ', Rev: 3, Len: 140
+3:246  0:000    6. 90FF6000: 'MCFG', 'CL09   ', Rev: 1, Len: 60
+3:246  0:000    7. 90FEA000: 'SSDT', 'CRV ORB ', Rev: 1, Len: 1790
+3:246  0:000    8. 90FE8000: 'BOOT', 'CL09   ', Rev: 1, Len: 40
+3:246  0:000    9. 90FE6000: 'ASPT', 'CL09   ', Rev: 7, Len: 52
+3:246  0:000    10. 90FE5000: 'DBGP', 'CL09   ', Rev: 1, Len: 52
+3:246  0:000    11. 90FDE000: 'SSDT', 'CRV ORB ', Rev: 1, Len: 1337
+3:246  0:000    12. 90FDD000: 'SSDT', 'CRV ORB ', Rev: 1, Len: 2776
+3:246  0:000    13. 90FD9000: 'SSDT', 'CRV ORB ', Rev: 1, Len: 13013
+3:246  0:000    14. 90FD6000: 'SSDT', 'CRV ORB ', Rev: 1, Len: 7741
+3:246  0:000    15. 90FD8000: 'DMAR', 'CL09   ', Rev: 1, Len: 136
+3:246  0:000    Tables in Rsdt: 16
+3:246  0:000    0. 90FF9000: 'FACP', 'CL09   ', Rev: 5, Len: 268
+3:246  0:000        (Dsdt: 90FEB000, Facs: 90FB8000, XDsdt: 90FEB000, XFacs: 0)
+3:246  0:000        90FEB000: 'DSDT', 'CL09   ', Rev: 1, Len: 43130
+3:246  0:000        90FB8000: 'FACS', Ver: 2, Len: 64
+3:246  0:000    1. 90FFD000: 'UEFI', 'CL09   ', Rev: 1, Len: 566
+3:246  0:000    2. 90FFB000: 'FPDT', 'CL09   ', Rev: 1, Len: 68
+3:246  0:000    3. 90FFA000: 'ASF!', 'CL09   ', Rev: 32, Len: 165
+3:246  0:000    4. 90FF8000: 'HPET', 'CL09   ', Rev: 1, Len: 56
+3:246  0:000    5. 90FF7000: 'APIC', 'CL09   ', Rev: 3, Len: 140
+3:246  0:000    6. 90FF6000: 'MCFG', 'CL09   ', Rev: 1, Len: 60
+3:246  0:000    7. 90FEA000: 'SSDT', 'CRV ORB ', Rev: 1, Len: 1790
+3:246  0:000    8. 90FE8000: 'BOOT', 'CL09   ', Rev: 1, Len: 40
+3:246  0:000    9. 90FE6000: 'ASPT', 'CL09   ', Rev: 7, Len: 52
+3:246  0:000    10. 90FE5000: 'DBGP', 'CL09   ', Rev: 1, Len: 52
+3:246  0:000    11. 90FDE000: 'SSDT', 'CRV ORB ', Rev: 1, Len: 1337
+3:246  0:000    12. 90FDD000: 'SSDT', 'CRV ORB ', Rev: 1, Len: 2776
+3:246  0:000    13. 90FD9000: 'SSDT', 'CRV ORB ', Rev: 1, Len: 13013
+3:246  0:000    14. 90FD6000: 'SSDT', 'CRV ORB ', Rev: 1, Len: 7741
+3:246  0:000    15. 90FD8000: 'DMAR', 'CL09   ', Rev: 1, Len: 136
+3:246  0:000  Found UEFI Acpi 1.0 RSDP at 90FFE000
+3:246  0:000  Printing ACPI tables from RSDP 90FFE000 ...
+3:246  0:000   90FFE000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+3:246  0:000    (Rsdt: 90FFE038)
+3:246  0:000    90FFE038: 'RSDT', 'CL09   ', Rev: 1, Len: 100
+3:246  0:000    Tables in Rsdt: 16
+3:246  0:000    0. 90FF9000: 'FACP', 'CL09   ', Rev: 5, Len: 268
+3:246  0:000        (Dsdt: 90FEB000, Facs: 90FB8000, XDsdt: 90FEB000, XFacs: 0)
+3:246  0:000        90FEB000: 'DSDT', 'CL09   ', Rev: 1, Len: 43130
+3:246  0:000        90FB8000: 'FACS', Ver: 2, Len: 64
+3:246  0:000    1. 90FFD000: 'UEFI', 'CL09   ', Rev: 1, Len: 566
+3:246  0:000    2. 90FFB000: 'FPDT', 'CL09   ', Rev: 1, Len: 68
+3:246  0:000    3. 90FFA000: 'ASF!', 'CL09   ', Rev: 32, Len: 165
+3:246  0:000    4. 90FF8000: 'HPET', 'CL09   ', Rev: 1, Len: 56
+3:246  0:000    5. 90FF7000: 'APIC', 'CL09   ', Rev: 3, Len: 140
+3:246  0:000    6. 90FF6000: 'MCFG', 'CL09   ', Rev: 1, Len: 60
+3:246  0:000    7. 90FEA000: 'SSDT', 'CRV ORB ', Rev: 1, Len: 1790
+3:246  0:000    8. 90FE8000: 'BOOT', 'CL09   ', Rev: 1, Len: 40
+3:246  0:000    9. 90FE6000: 'ASPT', 'CL09   ', Rev: 7, Len: 52
+3:246  0:000    10. 90FE5000: 'DBGP', 'CL09   ', Rev: 1, Len: 52
+3:246  0:000    11. 90FDE000: 'SSDT', 'CRV ORB ', Rev: 1, Len: 1337
+3:246  0:000    12. 90FDD000: 'SSDT', 'CRV ORB ', Rev: 1, Len: 2776
+3:246  0:000    13. 90FD9000: 'SSDT', 'CRV ORB ', Rev: 1, Len: 13013
+3:246  0:000    14. 90FD6000: 'SSDT', 'CRV ORB ', Rev: 1, Len: 7741
+3:246  0:000    15. 90FD8000: 'DMAR', 'CL09   ', Rev: 1, Len: 136
+5:925  2:678  BootOption of the entry is empty
+5:925  0:000  === [ StartLoader ] =======================================
+5:925  0:000  Finally: Bus=99769kHz CPU=2295MHz
+5:925  0:000  Loading boot.efi  status=Success
+6:010  0:085  GetOSVersion: 10.12 (16A323)
+6:010  0:000  CSR_CFG: CSR_ALLOW_UNTRUSTED_KEXTS | CSR_ALLOW_UNRESTRICTED_FS | CSR_ALLOW_TASK_FOR_PID | CSR_ALLOW_KERNEL_DEBUGGER | CSR_ALLOW_APPLE_INTERNAL | CSR_ALLOW_UNRESTRICTED_DTRACE | CSR_ALLOW_UNRESTRICTED_NVRAM | CSR_ALLOW_DEVICE_CONFIGURATION
+6:010  0:000  === [ PatchSmbios ] =======================================
+6:010  0:000  insert table 9 for dev 0:0
+6:010  0:000  insert table 9 for dev 0:0
+6:010  0:000  insert table 9 for dev 0:0
+6:011  0:001  Trusting SMBIOS...
+6:011  0:000  Detected alternating SMBIOS channel banks
+6:011  0:000  Channels: 2
+6:011  0:000  Interleave: 0 2 1 3 4 6 5 7 8 10 9 11 12 14 13 15 16 18 17 19 20 22 21 23
+6:011  0:000   partNum=FSGG43F-D8KMB     
+6:011  0:000  SMBIOS Type 17 Index = 0 => 0 0:
+6:011  0:000  BANK0 DIMM0 1600MHz 8192MB
+6:011  0:000   partNum=M471B5173DB0-YK0  
+6:011  0:000  SMBIOS Type 17 Index = 1 => 1 2:
+6:011  0:000  BANK1 DIMM0 1600MHz 4096MB
+6:011  0:000  mTotalSystemMemory = 12288
+6:011  0:000  NumberOfMemoryDevices = 2
+6:011  0:000  Type20[0]->End = 0x7FFFFF, Type17[0] = 0x2000
+6:011  0:000  Type20[1]->End = 0x3FFFFF, Type17[1] = 0x5000
+6:011  0:000  === [ PatchACPI ] =========================================
+6:011  0:000  RSDT 0x90FFE124
+6:011  0:000  FADT from RSDT: 0x90FF9000
+6:011  0:000  XSDT 0x90FFE210
+6:011  0:000  FADT from XSDT: 0x90FF9000
+6:011  0:000  Xsdt reallocation done
+6:011  0:000  old FADT length=10C
+6:012  0:000  Apply DsdtFixMask=0x06261011 old way
+6:012  0:000     drop _DSM mask=0x0000
+6:012  0:000  === [ FixBiosDsdt ] =======================================
+6:012  0:000  VideoCard devID=0xA168086
+6:012  0:000  DisplayADR1[0] = 0x20000, DisplayADR2[0] = 0xFFFE
+6:012  0:000  USBADR[0] = 0x140000 and PCIe = 0xFFFE
+6:012  0:000  Found Airport Atheros at 0x1C0003, 0x0, DeviceID=0x0036
+6:012  0:000  USBADR[1] = 0x1D0000 and PCIe = 0xFFFE
+6:012  0:000  first CPU found at 477D offset 4780
+6:012  0:000  score candidate at 4779
+6:012  0:000  score inserted in acpi_cpu_score _PR_
+6:012  0:000  Found ACPI CPU: CPU0 | CPU1 | CPU2 | CPU3 | CPU4 | CPU5 | CPU6 | CPU7 , within the score: _PR_
+6:012  0:000  Found PCIROOTUID = 0
+6:012  0:000  Start RTC Fix
+6:012  0:000  found RTC Length not match, Maybe will case CMOS reset will patch it.
+6:012  0:000  found RTC had IRQNoFlag will move -3 bytes
+6:012  0:000  ...len=A8B7
+6:012  0:000  new size written to 2352 shift=0 len=A8B7
+6:012  0:000  len after correct outers A8B7
+6:012  0:000  Start TMR Fix
+6:013  0:000  Start HPET Fix
+6:013  0:000  Start USB Fix
+6:013  0:000  USB bridge[140000] at 6049, size = FEE
+6:014  0:000  USB bridge[1D0000] at 5689, size = 611
+6:014  0:000   found slave _DSM, skip
+6:014  0:000  === [ ACPIDropTables ] ====================================
+6:014  0:000  Drop tables from Xsdt, SIGN=DMAR TableID=CL09    Length=136
+6:014  0:000   Xsdt has tables count=16
+6:014  0:000   Table: DMAR  CL09     136 dropped
+6:014  0:000  corrected XSDT length=156
+6:014  0:000  === [ PatchAllSSDT ] ======================================
+6:014  0:000  Patch table: SSDT  CRV ORB 
+6:014  0:000   SSDT len = 0x6FE
+6:014  0:000  Patch table: SSDT  CRV ORB 
+6:014  0:000   SSDT len = 0x539
+6:014  0:000  Patch table: SSDT  CRV ORB 
+6:014  0:000   SSDT len = 0xAD8
+6:014  0:000  Patch table: SSDT  CRV ORB 
+6:014  0:000   SSDT len = 0x32D5
+6:014  0:000  Patch table: SSDT  CRV ORB 
+6:014  0:000   SSDT len = 0x1E3D
+6:014  0:000  Drop tables from Xsdt, SIGN=XXXX TableID= Length=0
+6:014  0:000   Xsdt has tables count=15
+6:014  0:000  corrected XSDT length=156
+6:014  0:000  CPUBase=0 and ApicCPUBase=1 ApicCPUNum=8
+6:014  0:000  === [ RestSetupOSX ] ======================================
+6:014  0:000  EdidDiscovered size=128
+6:014  0:000  00 | 00 FF FF FF FF FF FF 00 30 E4 AB 03 00 00 00 00
+6:014  0:000  16 | 00 16 01 04 90 22 13 78 0A 05 F5 94 58 56 92 28
+6:014  0:000  32 | 1E 50 54 00 00 00 01 01 01 01 01 01 01 01 01 01
+6:014  0:000  48 | 01 01 01 01 01 01 FB 1D 56 FC 50 00 16 30 30 20
+6:014  0:000  64 | 35 00 58 C2 10 00 00 1A FC 13 56 FC 50 00 16 30
+6:014  0:000  80 | 30 20 35 00 58 C2 10 00 00 1A 00 00 00 FE 00 4E
+6:014  0:000  96 | 33 4B 4D 50 80 31 35 36 57 48 33 0A 00 00 00 00
+6:014  0:000  112 | 00 00 41 31 94 00 10 00 00 01 01 0A 20 20 00 D0
+6:014  0:000  Intel Intel HD Graphics 4400 [8086:0A16] :: PciRoot(0x0)\Pci(0x2,0x0)
+6:014  0:000  Intel GFX revision  =0x9
+6:014  0:000  HDA Controller [8086:0A0C] :: PciRoot(0x0)\Pci(0x3,0x0) => detected codec: 8086:2807
+6:014  0:000  HDA Controller [8086:9C20] :: PciRoot(0x0)\Pci(0x1B,0x0) => detected codec: 10EC:0283
+6:014  0:000  ATI injection not set
+6:014  0:000  stringlength = 1884
+6:014  0:000  CurrentMode: Width=1366 Height=768
+6:014  0:000  Beginning FSInjection
+FSInjectionInstall ...
+- Our FSI_SIMPLE_FILE_SYSTEM_PROTOCOL installed on handle: 8D3A5198
+FSInjectionInstall ...
+- Our FSI_SIMPLE_FILE_SYSTEM_PROTOCOL installed on handle: 8D3A5198
+6:018  0:003  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\10.12
+6:018  0:000    Extra kext: EFI\CLOVER\kexts\10.12\ACPIBatteryManager.kext
+6:019  0:000    Extra kext: EFI\CLOVER\kexts\10.12\FakeSMC.kext
+6:020  0:001    Extra kext: EFI\CLOVER\kexts\10.12\NullCPUPowerManagement.kext
+6:021  0:000    Extra kext: EFI\CLOVER\kexts\10.12\USBInjectAll.kext
+6:027  0:006    Extra kext: EFI\CLOVER\kexts\10.12\VoodooPS2Controller.kext
+6:030  0:002      Extra PlugIn kext: EFI\CLOVER\kexts\10.12\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Keyboard.kext
+6:033  0:003      Extra PlugIn kext: EFI\CLOVER\kexts\10.12\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Mouse.kext
+6:034  0:001      Extra PlugIn kext: EFI\CLOVER\kexts\10.12\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Trackpad.kext
+6:036  0:001    Extra kext: EFI\CLOVER\kexts\10.12\IO80211Family.kext
+6:043  0:006      Extra PlugIn kext: EFI\CLOVER\kexts\10.12\IO80211Family.kext\Contents\PlugIns\AirPortAtheros40.kext
+6:050  0:007      Extra PlugIn kext: EFI\CLOVER\kexts\10.12\IO80211Family.kext\Contents\PlugIns\AirPortBrcm4331.kext
+6:059  0:009      Extra PlugIn kext: EFI\CLOVER\kexts\10.12\IO80211Family.kext\Contents\PlugIns\AirPortBrcm4360.kext
+6:085  0:025      Extra PlugIn kext: EFI\CLOVER\kexts\10.12\IO80211Family.kext\Contents\PlugIns\AppleAirPortBrcm43224.kext
+6:091  0:006      Extra PlugIn kext: EFI\CLOVER\kexts\10.12\IO80211Family.kext\Contents\PlugIns\IO80211NetBooter.kext
+6:093  0:001    Extra kext: EFI\CLOVER\kexts\10.12\RealtekRTL8100.kext
+6:095  0:002    Extra kext: EFI\CLOVER\kexts\10.12\ApplePS2SmartTouchPad.kext
+6:102  0:007      Extra PlugIn kext: EFI\CLOVER\kexts\10.12\ApplePS2SmartTouchPad.kext\Contents\PlugIns\ApplePS2Controller.kext
+6:104  0:001      Extra PlugIn kext: EFI\CLOVER\kexts\10.12\ApplePS2SmartTouchPad.kext\Contents\PlugIns\ApplePS2Keyboard.kext
+6:106  0:002    Extra kext: EFI\CLOVER\kexts\10.12\FakePCIID_Intel_GbX.kext
+6:108  0:001    Extra kext: EFI\CLOVER\kexts\10.12\FakePCIID_Intel_HD_Graphics.kext
+6:109  0:001    Extra kext: EFI\CLOVER\kexts\10.12\FakePCIID_Intel_HDMI_Audio.kext
+6:110  0:000    Extra kext: EFI\CLOVER\kexts\10.12\FakePCIID.kext
+6:140  0:030  SetStartupDiskVolume:
+6:140  0:000    * Volume: 'os'
+6:140  0:000    * LoaderPath: '<null string>'
+6:140  0:000    * DevPath: os
+6:140  0:000    * GUID = EFCD9F08-CAE4-4BB4-AB99-C65F8D556FDC
+6:140  0:000    * efi-boot-device: <array><dict><key>IOMatch</key><dict><key>IOProviderClass</key><string>IOMedia</string><key>IOPropertyMatch</key><dict><key>UUID</key><string>EFCD9F08-CAE4-4BB4-AB99-C65F8D556FDC</string></dict></dict></dict></array>
+6:140  0:000  Custom boot is disabled
+6:141  0:000  Closing log
