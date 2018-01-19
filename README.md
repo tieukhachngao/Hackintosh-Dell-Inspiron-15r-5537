@@ -9,6 +9,9 @@
         <li>5. Export Configuration > Save.</li>
         <li>6. Copy FakePCIID.kext and FakePCIIDIntelHD_Graphics.kext to EFI/Clover/kexts/Other.</li>
         <li>7. Install both FakePCIID.kext and FakePCIIDIntelHD_Graphics.kext with Kext Utility.</li>
-        <li>8. Reboot.</li></ul>
-### II.Audio: 
-  <ul><li>Install tool VoodooHDA-2.8.8.pkg will auto fix audio (ALC283)</li>
+        <li>8. Reboot.</li>
+</ul>
+###  II.Audio: 
+  <ul>
+    <li>Install tool VoodooHDA-2.8.8.pkg will auto fix audio (ALC283)</li>
+  </ul>
