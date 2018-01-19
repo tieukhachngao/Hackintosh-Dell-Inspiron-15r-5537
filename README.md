@@ -16,3 +16,8 @@ II.Audio:
   <ul>
     <li>Install tool VoodooHDA-2.8.8.pkg will auto fix audio (ALC283)</li>
   </ul>
+III. Touchpad 
+  <ul>
+      <li> Dell Inspiron 15r 5537 uses DellTouchpad, when install SmartTouchpad.kext will work well
+      </li>
+  </ul>
